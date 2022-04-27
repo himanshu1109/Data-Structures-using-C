@@ -6,7 +6,7 @@ struct node{
     struct node *next;
 };
 
-// Adding Node to the Empty list
+// Adding Node to the Empty List
 struct node* addToEmpty(int data){
     struct node* temp = malloc(sizeof(struct node));
     temp->data = data;

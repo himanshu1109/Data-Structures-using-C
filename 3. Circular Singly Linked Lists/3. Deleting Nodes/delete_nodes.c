@@ -61,7 +61,7 @@ struct node* del_at_end(struct node* tail){
     return tail;
 };
 
-// Deleting the Intermediate Node
+// Deleting the Intermediate Node 
 struct node* del_at_pos(struct node* tail, int pos){
     if(tail==NULL){
         return tail;

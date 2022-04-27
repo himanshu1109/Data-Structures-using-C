@@ -49,7 +49,7 @@ struct node* add_at_end(struct node* tail, int data){
     }
 };
 
-// Adding between Nodes or at certain position
+// Adding Between Nodes or at certain position
 struct node* add_after_pos(struct node* tail, int data, int pos){
     struct node* newP = addToEmpty(data);
     if(tail==NULL){
