@@ -63,7 +63,7 @@ int peek(){
     return stack_arr[0];
 }
 
-// Printing Stack
+// Printing the Stack
 void print(){
     int i;
     if(first == -1){
